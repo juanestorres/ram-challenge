@@ -91,12 +91,12 @@ try:
     episodes_counter =  count_character(episodes_json, 'e')
     location_counter =  count_character(locations_json, 'l')
 
-    print(f"Finished fetching the data. Results c: {characters_counter}, e: {episodes_counter}, l: {location_counter}")
+    #print(f"Finished fetching the data. Results c: {characters_counter}, e: {episodes_counter}, l: {location_counter}")
 
     #Calculate time and check if the process was on time
     time_used = datetime.now() - start
     seconds_used_str = str(time_used.seconds)
-    milliseconds_used_str = str(round(time_used.microseconds / 1000, 6))
+    milliseconds_used_str = str(round(time_used.microseconds / 1000, 3))
     time_used_str = seconds_used_str + "s " + milliseconds_used_str + "ms"
     in_time = time_used < timedelta(seconds=3)
 
