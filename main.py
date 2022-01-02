@@ -1,4 +1,8 @@
 import requests
+from datetime import datetime, timedelta
+
+#Start time measurement
+start=datetime.now()
 
 #Key names from the API. Just in case they may change in the future.
 api_results = 'results'
@@ -8,6 +12,31 @@ api_name = "name"
 characters_url = 'https://rickandmortyapi.com/api/character'
 episodes_url = "https://rickandmortyapi.com/api/episode"
 locations_url = 'https://rickandmortyapi.com/api/location'
+
+
+#Final answer json(dictionary)
+first_answer = {
+    "exercise_name": "Char counter",
+        "time": "",
+        "in_time": False,
+        "results": [
+            {
+                "char": "l",
+                "count": 0,
+                "resource": "location"
+            },
+            {
+                "char": "e",
+                "count": 0,
+                "resource": "episode"
+            },
+            {
+                "char": "c",
+                "count": 0,
+                "resource": "character"
+            }
+        ]
+}
 
 
 def fetch_data(url):
@@ -63,6 +92,22 @@ try:
     location_counter =  count_character(locations_json, 'l')
 
     print(f"Finished fetching the data. Results c: {characters_counter}, e: {episodes_counter}, l: {location_counter}")
+
+    #Calculate time and check if the process was on time
+    time_used = datetime.now() - start
+    seconds_used_str = str(time_used.seconds)
+    milliseconds_used_str = str(round(time_used.microseconds / 1000, 6))
+    time_used_str = seconds_used_str + "s " + milliseconds_used_str + "ms"
+    in_time = time_used < timedelta(seconds=3)
+
+    #Add values to json
+    first_answer["time"] = time_used_str
+    first_answer["in_time"] = in_time
+    first_answer["results"][0]["count"] = location_counter
+    first_answer["results"][1]["count"] = episodes_counter
+    first_answer["results"][2]["count"] = characters_counter
+
+    print(str(first_answer))
 
 except Exception as e:
     print("There was an error fetching the information. " + str(e))
