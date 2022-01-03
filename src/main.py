@@ -115,6 +115,7 @@ def char_counter():
         first_answer["results"][2]["count"] = characters_counter
 
         print(str(first_answer))
+        return first_answer
 
     except Exception as e:
         print("There was an error fetching the information. " + str(e))
