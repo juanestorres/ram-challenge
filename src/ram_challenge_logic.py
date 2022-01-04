@@ -2,8 +2,8 @@ import requests
 import traceback
 import json
 from datetime import datetime
-from char_counter import char_counter
-from episode_locations import episode_locations
+from .char_counter import char_counter
+from .episode_locations import episode_locations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 #API's urls. Just in case they may change in the future.
@@ -138,11 +138,8 @@ def rick_and_morty_solution(local):
         else:
             return json_file
 
-    except Exception as e:
+    except Exception:
         print("There was an error fetching the information. " + str(traceback.format_exc()))
 
-
-
-rick_and_morty_solution(local=True)
 
 
