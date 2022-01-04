@@ -130,7 +130,8 @@ def rick_and_morty_solution(local):
 
         #Create Json file
         answers = [char_counter_json, episode_locations_json]
-        json_file = json.dumps(answers)
+        #print(answers)
+        json_file = answers
         if local:
             with open('results.json', 'w') as file:
                 file.write(json_file)
