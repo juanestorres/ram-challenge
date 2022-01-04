@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 from char_counter import char_counter
-
+from episode_locations import episode_locations
 
 #API's urls. Just in case they may change in the future.
 characters_url = 'https://rickandmortyapi.com/api/character'
@@ -41,6 +41,9 @@ def rick_and_morty_solution():
 
         #Start time measurement for second exercise
         start = datetime.now()
+
+        episode_locations_json = episode_locations(characters_json, episodes_json, start)
+        print(episode_locations_json)
 
 
 

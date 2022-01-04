@@ -32,7 +32,17 @@ def count_character(json_data, char):
     return counter
 
 def char_counter(characters_json, episodes_json, locations_json, start):
+    """Function that solves the first exercise.
 
+    Args:
+        characters_json ([dict]): The json(dict) data for the characters.
+        episodes_json ([dict]): The json(dict) data for the episodes.
+        locations_json ([dict]): The json(dict) data for the locations.
+        start ([datetime]): datetime of the start of the solution.
+
+    Returns:
+        [dict]: Json (dict) containing the expected answer for the first exercise.
+    """
     #Final answer json(dictionary)
     first_answer = {
         "exercise_name": "Char counter",
@@ -57,8 +67,6 @@ def char_counter(characters_json, episodes_json, locations_json, start):
             ]
     }
 
-    
-
     #Call the auxiliary function to count the occurrences depending on which  "list" of data is
     characters_counter = count_character(characters_json,'c')
     episodes_counter =  count_character(episodes_json, 'e')
@@ -68,7 +76,6 @@ def char_counter(characters_json, episodes_json, locations_json, start):
 
     #Calculate time and check if the process was on time
     time_used = datetime.now() - start
-    print(str(time_used.total_seconds()))
     seconds_used_str = str(time_used.seconds)
     milliseconds_used_str = str(round(time_used.microseconds / 1000, 3))
     time_used_str = seconds_used_str + "s " + milliseconds_used_str + "ms"

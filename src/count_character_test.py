@@ -1,8 +1,8 @@
 import unittest
-from main import count_character
+from char_counter import count_character
 
 class TestCountCharacter(unittest.TestCase):
-
+    
     def test_character(self):
         json_response = {
         "info": {
