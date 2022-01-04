@@ -1,1 +1,622 @@
-[{"exercise_name": "Char counter", "time": "8s 168.841ms", "in_time": false, "results": [{"char": "l", "count": 82, "resource": "location"}, {"char": "e", "count": 88, "resource": "episode"}, {"char": "c", "count": 494, "resource": "character"}]}, {"exercise_name": "Episode locations", "time": "0s 1.976ms", "in_time": true, "results": [{"name": "Pilot", "episode": "S01E01", "locations": ["Earth (C-137)", "unknown", "Bepis 9", "Mr. Meeseeks Box", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Anatomy Park", "Earth (Replacement Dimension)", "Girvonesk"]}, {"name": "Lawnmower Dog", "episode": "S01E02", "locations": ["Earth (C-137)", "unknown", "Anatomy Park", "Earth (D-99)", "Unity's Planet"]}, {"name": "Anatomy Park", "episode": "S01E03", "locations": ["Earth (C-137)", "unknown", "Mr. Goldenfold's dream", "Post-Apocalyptic Earth", "Earth (Evil Rick's Target Dimension)", "Earth (Replacement Dimension)", "Gear World", "Testicle Monster Dimension"]}, {"name": "M. Night Shaym-Aliens!", "episode": "S01E04", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Anatomy Park", "Nuptia 4"]}, {"name": "Meeseeks and Destroy", "episode": "S01E05", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Anatomy Park", "Purge Planet", "Earth (Evil Rick's Target Dimension)"]}, {"name": "Rick Potion #9", "episode": "S01E06", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (J19\u03b67)", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Anatomy Park", "Gazorpazorp"]}, {"name": "Raising Gazorpazorp", "episode": "S01E07", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Nuptia 4", "Unity's Planet", "Gazorpazorp"]}, {"name": "Rixty Minutes", "episode": "S01E08", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (C-500A)", "Post-Apocalyptic Earth", "Gazorpazorp", "Rick's Battery Microverse", "Nuptia 4", "Cronenberg Earth", "Mr. Goldenfold's dream", "Resort Planet", "Earth (Chair Dimension)", "Trunk World", "Interdimensional Cable", "Earth (Phone Dimension)"]}, {"name": "Something Ricked This Way Comes", "episode": "S01E09", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Anatomy Park", "Gazorpazorp", "Earth (D716)", "Pluto"]}, {"name": "Close Rick-counters of the Rick Kind", "episode": "S01E10", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Evil Rick's Target Dimension)", "Purge Planet", "Earth (J19\u03b67)", "Roy: A Life Well Lived", "Earth (K-22)", "Fantasy World", "Earth (K-83)", "Earth (C-500A)", "Earth (Chair Dimension)", "Nuptia 4", "Rick's Battery Microverse", "Narnia Dimension"]}, {"name": "Ricksy Business", "episode": "S01E11", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Bepis 9", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Krootabulon", "Gazorpazorp", "Earth (D716-B)", "Earth (Pizza Dimension)", "Girvonesk", "Mr. Goldenfold's dream"]}, {"name": "A Rickle in Time", "episode": "S02E01", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Anatomy Park", "Snuffles' Dream", "Giant's Town"]}, {"name": "Mortynight Run", "episode": "S02E02", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Glaagablaaga", "Gazorpazorp", "Earth (Giant Telepathic Spiders Dimension)", "Earth (C-500A)", "Purge Planet", "Earth (D716-C)", "Earth (J-22)", "Fantasy World", "Mr. Goldenfold's dream", "Story Train", "Morty\u2019s Story", "Ricks\u2019s Story", "Tickets Please Guy Nightmare"]}, {"name": "Auto Erotic Assimilation", "episode": "S02E03", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Post-Apocalyptic Earth", "Gazorpazorp"]}, {"name": "Total Rickall", "episode": "S02E04", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Anatomy Park", "Earth (Chair Dimension)", "Planet Squanch"]}, {"name": "Get Schwifty", "episode": "S02E05", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Signus 5 Expanse", "Resort Planet", "Alphabetrium", "Pluto", "Fantasy World", "Anatomy Park", "Earth (D716-C)", "Earth (Pizza Dimension)", "Greasy Grandma World", "Earth (Phone Dimension)", "Story Train", "Ricks\u2019s Story"]}, {"name": "The Ricks Must Be Crazy", "episode": "S02E06", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Hideout Planet", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Earth (Evil Rick's Target Dimension)", "Anatomy Park", "Mr. Goldenfold's dream", "Earth (Phone Dimension)", "Kyle's Teenyverse"]}, {"name": "Big Trouble in Little Sanchez", "episode": "S02E07", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Nuptia 4", "Post-Apocalyptic Earth", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Anatomy Park", "Earth (Evil Rick's Target Dimension)", "Fantasy World", "Morty\u2019s Story"]}, {"name": "Interdimensional Cable 2: Tempting Fate", "episode": "S02E08", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Bepis 9", "Mega Gargantuan Kingdom", "Glaagablaaga", "Hamster in Butt World", "Cronenberg Earth", "Mr. Goldenfold's dream", "Earth (K-22)", "Plopstar", "Post-Apocalyptic Earth", "Girvonesk", "Ricks\u2019s Story", "Story Train"]}, {"name": "Look Who's Purging Now", "episode": "S02E09", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Purge Planet", "Pluto"]}, {"name": "Star Mort: Rickturn of the Jerri", "episode": "S04E10", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Pizza Dimension)"]}, {"name": "Mort Dinner Rick Andre", "episode": "S05E01", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Giant Telepathic Spiders Dimension)", "Near-Duplicate Reality", "Gaia", "Mount Olympus"]}, {"name": "Mortyplicity", "episode": "S05E02", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Planet Squanch", "Gromflom Prime", "The Ocean", "Narnia Dimension", "Morty", "Earth (Phone Dimension)"]}, {"name": "A Rickconvenient Mort", "episode": "S05E03", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Near-Duplicate Reality", "Earth (Unknown dimension)", "Citadel of Ricks", "Rick and Two Crows Planet"]}, {"name": "Rickdependence Spray", "episode": "S05E04", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Phone Dimension)", "Interdimensional Cable"]}, {"name": "Amortycan Grickfitti", "episode": "S05E05", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Elemental Rings", "Morglutz", "Birdperson's Consciousness"]}, {"name": "Rick & Morty's Thanksploitation Spectacular", "episode": "S05E06", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Phone Dimension)", "Avian Planet", "Normal Size Bug Dimension", "Slartivart", "Ferkus 9", "Morglutz"]}, {"name": "Gotron Jerrysis Rickvangelion", "episode": "S05E07", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (C-500A)", "Rick and Two Crows Planet"]}, {"name": "Rickternal Friendshine of the Spotless Mort", "episode": "S05E08", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Birdperson's Consciousness"]}, {"name": "Forgetting Sarick Mortshall", "episode": "S05E09", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Citadel of Ricks"]}, {"name": "Rickmurai Jack", "episode": "S05E10", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Citadel of Ricks", "Fantasy World", "Hell", "Earth (C-500A)", "Space Tahoe", "France"]}, {"name": "The Wedding Squanchers", "episode": "S02E10", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Glaagablaaga", "Earth (5-126)", "Earth (C-500A)", "Anatomy Park", "Unity's Planet", "Earth (D716-B)", "Earth (D716-C)", "Earth (J-22)", "Earth (Pizza Dimension)", "Ricks\u2019s Story"]}, {"name": "The Rickshank Rickdemption", "episode": "S03E01", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Roy: A Life Well Lived", "Earth (K-83)", "Earth (C-500A)", "Anatomy Park", "Earth (Pizza Dimension)", "Draygon"]}, {"name": "Rickmancing the Stone", "episode": "S03E02", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Post-Apocalyptic Earth", "Zeep Xanflorp's Miniverse", "Larva Alien's Planet", "Pluto"]}, {"name": "Pickle Rick", "episode": "S03E03", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (C-500A)", "Gazorpazorp", "Anatomy Park", "Mr. Goldenfold's dream"]}, {"name": "Vindicators 3: The Return of Worldender", "episode": "S03E04", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Bepis 9", "Anatomy Park", "Eric Stoltz Mask Earth", "Alphabetrium", "Nuptia 4", "Unity's Planet", "Gazorpazorp", "Earth (D716-C)", "Earth (J-22)", "Detoxifier", "Girvonesk"]}, {"name": "The Whirly Dirly Conspiracy", "episode": "S03E05", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Gromflom Prime", "Earth (Giant Telepathic Spiders Dimension)", "Gazorpazorp", "Resort Planet", "Draygon"]}, {"name": "Rest and Ricklaxation", "episode": "S03E06", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Abadango", "Earth (Giant Telepathic Spiders Dimension)", "Alphabetrium", "Anatomy Park", "Detoxifier"]}, {"name": "The Ricklantis Mixup", "episode": "S03E07", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Roy: A Life Well Lived", "Fantasy World", "Earth (Giant Telepathic Spiders Dimension)", "Giant's Town", "Pluto", "Bird World", "Post-Apocalyptic Earth", "Zeep Xanflorp's Miniverse", "Earth (Pizza Dimension)", "Trunk World", "Snake Planet"]}, {"name": "Morty's Mind Blowers", "episode": "S03E08", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Venzenulon 7", "The Menagerie", "Earth (Giant Telepathic Spiders Dimension)", "Purge Planet", "Gazorpazorp"]}, {"name": "The ABC's of Beth", "episode": "S03E09", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Giant Telepathic Spiders Dimension)", "Anatomy Park", "Earth (Chair Dimension)", "Krootabulon", "Citadel of Ricks"]}, {"name": "The Rickchurian Mortydate", "episode": "S03E10", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Unity's Planet", "Earth (Phone Dimension)"]}, {"name": "Edge of Tomorty: Rick, Die, Rickpeat", "episode": "S04E01", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Earth (Giant Telepathic Spiders Dimension)", "Purge Planet", "Earth (Wasp Dimension)", "Mr. Meeseeks Box", "Midland Quasar", "Globaflyn"]}, {"name": "The Old Man and the Seat", "episode": "S04E02", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Gear World", "Roy: A Life Well Lived", "\u00c1rboles Mentirosos", "Globaflyn"]}, {"name": "One Crew Over the Crewcoo's Morty", "episode": "S04E03", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Mount Olympus", "Plitzville Montana", "Earth (Tusk Dimension)", "Gramuflack", "Snake Planet"]}, {"name": "Claw and Hoarder: Special Ricktim's Morty", "episode": "S04E04", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Snake Planet"]}, {"name": "Rattlestar Ricklactica", "episode": "S04E05", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Gazorpazorp", "Bird World", "Story Train", "Tickets Please Guy Nightmare"]}, {"name": "Never Ricking Morty", "episode": "S04E06", "locations": ["Earth (Replacement Dimension)", "unknown", "Earth (Fascist Dimension)", "Earth (Fascist Shrimp Dimension)", "Earth (Fascist Teddy Bear Dimension)", "Earth (Wasp Dimension)", "Morty\u2019s Story", "Story Train", "Ricks\u2019s Story", "Tickets Please Guy Nightmare", "Earth (C-137)"]}, {"name": "Promortyus", "episode": "S04E07", "locations": ["Glorzo Asteroid", "Earth (C-137)", "unknown", "Earth (Replacement Dimension)"]}, {"name": "The Vat of Acid Episode", "episode": "S04E08", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Anatomy Park", "Earth (Giant Telepathic Spiders Dimension)", "Merged Universe", "Near-Duplicate Reality", "Narnia Dimension"]}, {"name": "Childrick of Mort", "episode": "S04E09", "locations": ["Earth (C-137)", "unknown", "Earth (Replacement Dimension)", "Narnia Dimension", "The Ocean"]}]}]
+[
+    {
+        "exercise_name": "Char counter",
+        "time": "10s 866.366ms",
+        "in_time": false,
+        "results": [
+            {
+                "char": "l",
+                "count": 82,
+                "resource": "location"
+            },
+            {
+                "char": "e",
+                "count": 88,
+                "resource": "episode"
+            },
+            {
+                "char": "c",
+                "count": 494,
+                "resource": "character"
+            }
+        ]
+    },
+    {
+        "exercise_name": "Episode locations",
+        "time": "0s 1.0ms",
+        "in_time": true,
+        "results": [
+            {
+                "name": "Pilot",
+                "episode": "S01E01",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Bepis 9",
+                    "Gromflom Prime",
+                    "Girvonesk"
+                ]
+            },
+            {
+                "name": "Lawnmower Dog",
+                "episode": "S01E02",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Mr. Goldenfold's dream",
+                    "Snuffles' Dream"
+                ]
+            },
+            {
+                "name": "Anatomy Park",
+                "episode": "S01E03",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Anatomy Park"
+                ]
+            },
+            {
+                "name": "M. Night Shaym-Aliens!",
+                "episode": "S01E04",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown"
+                ]
+            },
+            {
+                "name": "Meeseeks and Destroy",
+                "episode": "S01E05",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Fantasy World",
+                    "Giant's Town",
+                    "Mr. Meeseeks Box"
+                ]
+            },
+            {
+                "name": "Rick Potion #9",
+                "episode": "S01E06",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Cronenberg Earth"
+                ]
+            },
+            {
+                "name": "Raising Gazorpazorp",
+                "episode": "S01E07",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Gazorpazorp"
+                ]
+            },
+            {
+                "name": "Rixty Minutes",
+                "episode": "S01E08",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Earth (C-500A)",
+                    "Gazorpazorp",
+                    "Hamster in Butt World",
+                    "Trunk World",
+                    "Interdimensional Cable",
+                    "Earth (Phone Dimension)"
+                ]
+            },
+            {
+                "name": "Something Ricked This Way Comes",
+                "episode": "S01E09",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Pluto"
+                ]
+            },
+            {
+                "name": "Close Rick-counters of the Rick Kind",
+                "episode": "S01E10",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Earth (Evil Rick's Target Dimension)",
+                    "Hideout Planet",
+                    "Cronenberg Earth",
+                    "Earth (J19\u03b67)",
+                    "Eric Stoltz Mask Earth",
+                    "Mr. Meeseeks Box",
+                    "Earth (Pizza Dimension)",
+                    "Greasy Grandma World",
+                    "Earth (Phone Dimension)",
+                    "Earth (Chair Dimension)",
+                    "Mount Olympus"
+                ]
+            },
+            {
+                "name": "Ricksy Business",
+                "episode": "S01E11",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bepis 9",
+                    "Bird World",
+                    "Gear World",
+                    "Fantasy World",
+                    "Planet Squanch",
+                    "Girvonesk",
+                    "Testicle Monster Dimension"
+                ]
+            },
+            {
+                "name": "A Rickle in Time",
+                "episode": "S02E01",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)"
+                ]
+            },
+            {
+                "name": "Mortynight Run",
+                "episode": "S02E02",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Roy: A Life Well Lived",
+                    "Glaagablaaga",
+                    "Gazorpazorp",
+                    "Earth (5-126)",
+                    "Mr. Meeseeks Box",
+                    "Gear World",
+                    "Testicle Monster Dimension"
+                ]
+            },
+            {
+                "name": "Auto Erotic Assimilation",
+                "episode": "S02E03",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Unity's Planet"
+                ]
+            },
+            {
+                "name": "Total Rickall",
+                "episode": "S02E04",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)"
+                ]
+            },
+            {
+                "name": "Get Schwifty",
+                "episode": "S02E05",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Signus 5 Expanse",
+                    "Bird World",
+                    "Alphabetrium",
+                    "Larva Alien's Planet",
+                    "Planet Squanch",
+                    "Girvonesk",
+                    "\u00c1rboles Mentirosos"
+                ]
+            },
+            {
+                "name": "The Ricks Must Be Crazy",
+                "episode": "S02E06",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Rick's Battery Microverse",
+                    "Earth (Giant Telepathic Spiders Dimension)",
+                    "Zeep Xanflorp's Miniverse",
+                    "Kyle's Teenyverse"
+                ]
+            },
+            {
+                "name": "Big Trouble in Little Sanchez",
+                "episode": "S02E07",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Nuptia 4"
+                ]
+            },
+            {
+                "name": "Interdimensional Cable 2: Tempting Fate",
+                "episode": "S02E08",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bepis 9",
+                    "Glaagablaaga",
+                    "Hamster in Butt World",
+                    "Larva Alien's Planet",
+                    "Plopstar",
+                    "\u00c1rboles Mentirosos"
+                ]
+            },
+            {
+                "name": "Look Who's Purging Now",
+                "episode": "S02E09",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Purge Planet"
+                ]
+            },
+            {
+                "name": "The Wedding Squanchers",
+                "episode": "S02E10",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Glaagablaaga",
+                    "Larva Alien's Planet",
+                    "Planet Squanch",
+                    "\u00c1rboles Mentirosos"
+                ]
+            },
+            {
+                "name": "The Rickshank Rickdemption",
+                "episode": "S03E01",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Earth (J19\u03b67)",
+                    "Earth (D-99)"
+                ]
+            },
+            {
+                "name": "Rickmancing the Stone",
+                "episode": "S03E02",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Post-Apocalyptic Earth"
+                ]
+            },
+            {
+                "name": "Pickle Rick",
+                "episode": "S03E03",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)"
+                ]
+            },
+            {
+                "name": "Vindicators 3: The Return of Worldender",
+                "episode": "S03E04",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bepis 9",
+                    "Gear World",
+                    "Girvonesk"
+                ]
+            },
+            {
+                "name": "The Whirly Dirly Conspiracy",
+                "episode": "S03E05",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Resort Planet"
+                ]
+            },
+            {
+                "name": "Rest and Ricklaxation",
+                "episode": "S03E06",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Abadango",
+                    "Detoxifier"
+                ]
+            },
+            {
+                "name": "The Ricklantis Mixup",
+                "episode": "S03E07",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Earth (K-83)",
+                    "Earth (K-22)",
+                    "Earth (D716)",
+                    "Earth (D716-B)",
+                    "Earth (D716-C)",
+                    "Earth (J-22)",
+                    "Trunk World",
+                    "Citadel of Ricks"
+                ]
+            },
+            {
+                "name": "Morty's Mind Blowers",
+                "episode": "S03E08",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Venzenulon 7",
+                    "The Menagerie",
+                    "Mr. Meeseeks Box"
+                ]
+            },
+            {
+                "name": "The ABC's of Beth",
+                "episode": "S03E09",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Krootabulon"
+                ]
+            },
+            {
+                "name": "The Rickchurian Mortydate",
+                "episode": "S03E10",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Mega Gargantuan Kingdom"
+                ]
+            },
+            {
+                "name": "Edge of Tomorty: Rick, Die, Rickpeat",
+                "episode": "S04E01",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Mr. Meeseeks Box",
+                    "Earth (Fascist Dimension)",
+                    "Earth (Fascist Shrimp Dimension)",
+                    "Earth (Fascist Teddy Bear Dimension)",
+                    "Earth (Wasp Dimension)"
+                ]
+            },
+            {
+                "name": "The Old Man and the Seat",
+                "episode": "S04E02",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Midland Quasar",
+                    "Globaflyn"
+                ]
+            },
+            {
+                "name": "One Crew Over the Crewcoo's Morty",
+                "episode": "S04E03",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Mount Olympus",
+                    "Plitzville Montana",
+                    "Earth (Tusk Dimension)",
+                    "Gramuflack"
+                ]
+            },
+            {
+                "name": "Claw and Hoarder: Special Ricktim's Morty",
+                "episode": "S04E04",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Draygon"
+                ]
+            },
+            {
+                "name": "Rattlestar Ricklactica",
+                "episode": "S04E05",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Snake Planet"
+                ]
+            },
+            {
+                "name": "Never Ricking Morty",
+                "episode": "S04E06",
+                "locations": [
+                    "Story Train",
+                    "Tickets Please Guy Nightmare",
+                    "Morty\u2019s Story",
+                    "Ricks\u2019s Story",
+                    "Earth (C-137)",
+                    "unknown"
+                ]
+            },
+            {
+                "name": "Promortyus",
+                "episode": "S04E07",
+                "locations": [
+                    "Glorzo Asteroid",
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)"
+                ]
+            },
+            {
+                "name": "The Vat of Acid Episode",
+                "episode": "S04E08",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Merged Universe",
+                    "Near-Duplicate Reality"
+                ]
+            },
+            {
+                "name": "Childrick of Mort",
+                "episode": "S04E09",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Gaia",
+                    "Mount Olympus"
+                ]
+            },
+            {
+                "name": "Star Mort: Rickturn of the Jerri",
+                "episode": "S04E10",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Planet Squanch",
+                    "Gromflom Prime"
+                ]
+            },
+            {
+                "name": "Mort Dinner Rick Andre",
+                "episode": "S05E01",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "The Ocean",
+                    "Narnia Dimension"
+                ]
+            },
+            {
+                "name": "Mortyplicity",
+                "episode": "S05E02",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Interdimensional Cable"
+                ]
+            },
+            {
+                "name": "A Rickconvenient Mort",
+                "episode": "S05E03",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Elemental Rings",
+                    "Morglutz",
+                    "Slartivart",
+                    "Ferkus 9"
+                ]
+            },
+            {
+                "name": "Rickdependence Spray",
+                "episode": "S05E04",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Morty",
+                    "Near-Duplicate Reality"
+                ]
+            },
+            {
+                "name": "Amortycan Grickfitti",
+                "episode": "S05E05",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Hell",
+                    "Space Tahoe"
+                ]
+            },
+            {
+                "name": "Rick & Morty's Thanksploitation Spectacular",
+                "episode": "S05E06",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "France"
+                ]
+            },
+            {
+                "name": "Gotron Jerrysis Rickvangelion",
+                "episode": "S05E07",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Normal Size Bug Dimension"
+                ]
+            },
+            {
+                "name": "Rickternal Friendshine of the Spotless Mort",
+                "episode": "S05E08",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Birdperson's Consciousness"
+                ]
+            },
+            {
+                "name": "Forgetting Sarick Mortshall",
+                "episode": "S05E09",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Avian Planet"
+                ]
+            },
+            {
+                "name": "Rickmurai Jack",
+                "episode": "S05E10",
+                "locations": [
+                    "Earth (C-137)",
+                    "unknown",
+                    "Earth (Replacement Dimension)",
+                    "Bird World",
+                    "Citadel of Ricks",
+                    "Rick and Two Crows Planet",
+                    "Earth (Unknown dimension)"
+                ]
+            }
+        ]
+    }
+]

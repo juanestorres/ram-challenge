@@ -57,6 +57,9 @@ def fetch_data_multithread(url:str):
         for task in as_completed(threads):
             response_json['results'] += task.result()['results']
 
+    response_json['results'] = sorted(response_json['results'], key=lambda d: d['id'])
+    print("Size: " + str(len(response_json["results"])) + ". " + str(response_json["results"][-1]["id"]))
+
     return response_json
 
 def aux_fetch(url):
