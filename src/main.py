@@ -23,7 +23,7 @@ def fetch_data(url):
     response = requests.get(url)
     response_json = response.json()
     next_page_url = response_json["info"]["next"]
-    
+
 
     while next_page_url:
         new_response = requests.get(next_page_url)
@@ -48,8 +48,10 @@ def fetch_data_multithread(url:str):
         new_url = base_url + str(page)
         pages_url_list.append(new_url)
 
+    print(str(number_pages) + " ---- " + pages_url_list[-1])
+
     threads = []
-    with ThreadPoolExecutor(max_workers=15) as executor:
+    with ThreadPoolExecutor(max_workers=20) as executor:
         for page_url in pages_url_list:
             threads.append(executor.submit(aux_fetch, page_url))
         for task in as_completed(threads):
