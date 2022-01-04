@@ -15,12 +15,12 @@ def episode_locations(characters_json, episodes_json, start):
         locations= []
         locations_size = 0
         characters_in_episode = episode["characters"]
-        print("---------")
+        #print("---------")
         for character in characters_in_episode:
             character_id = int(character.split('/')[-1]) - 1
-            if character_id > len(characters_list) - 1:
-                break
-            print(character_id + 1)
+            #if character_id > len(characters_list) - 1:
+            #    break
+            #print(character_id + 1)
             character_data = characters_list[character_id]
             character_origin = character_data["origin"]["name"]
             if character_origin not in locations:
