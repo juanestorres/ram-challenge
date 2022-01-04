@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from char_counter import char_counter
 from episode_locations import episode_locations
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 #API's urls. Just in case they may change in the future.
 characters_url = 'https://rickandmortyapi.com/api/character'
@@ -23,7 +23,7 @@ def fetch_data(url):
     response = requests.get(url)
     response_json = response.json()
     next_page_url = response_json["info"]["next"]
-
+    
 
     while next_page_url:
         new_response = requests.get(next_page_url)
@@ -33,6 +33,32 @@ def fetch_data(url):
     return  response_json
 
 
+def fetch_data_multithread(url:str):
+
+    response = requests.get(url)
+    response_json = response.json()
+    if not response_json:
+        raise "Empty data"
+    object_type = url.split('/')[-1]
+    base_url = f'https://rickandmortyapi.com/api/{object_type}?page='
+    number_pages = int(response_json['info']['pages'])
+    pages_url_list = []
+
+    for page in range(2, number_pages + 1):
+        new_url = base_url + str(page)
+        pages_url_list.append(new_url)
+
+    threads = []
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        for page_url in pages_url_list:
+            threads.append(executor.submit(aux_fetch, page_url))
+        for task in as_completed(threads):
+            response_json['results'] += task.result()['results']
+
+    return response_json
+
+def aux_fetch(url):
+    return requests.get(url).json()
 
 
 
@@ -49,9 +75,9 @@ def rick_and_morty_solution():
         #locations_response = fetch_data(locations_url)
 
         #Get the json(dict) information from the response
-        characters_json = fetch_data(characters_url)
-        episodes_json = fetch_data(episodes_url)
-        locations_json = fetch_data(locations_url)
+        characters_json = fetch_data_multithread(characters_url)
+        episodes_json = fetch_data_multithread(episodes_url)
+        locations_json = fetch_data_multithread(locations_url)
 
         char_counter_json = char_counter(characters_json, episodes_json, locations_json, start)
 
