@@ -75,9 +75,6 @@ tangled-up-in-unicode==0.1.0
 terminado==0.9.3
 testpath==0.4.4
 toml==0.10.2
-torch==1.8.1+cu102
-torchaudio==0.8.1
-torchvision==0.9.1+cu102
 tornado==6.1
 traitlets==5.0.5
 typing-extensions==3.7.4.3
